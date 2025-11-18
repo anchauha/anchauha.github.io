@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am AI Engineer at Indiana University, Indianapolis who recently graduated from Indiana University, Indianapolis with a Master's in Applied Data Science. My research interests lie at the intersection of human-robot interaction, machine learning, and computer vision.
+I am an AI Engineer at Indiana University Indianapolis who recently graduated from Indiana University Indianapolis with a Master's in Data Science. My research interests lie at the intersection of human-robot interaction, machine learning, and computer vision.
 
 Education
 ======
