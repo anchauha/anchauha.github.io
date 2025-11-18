@@ -1,56 +1,75 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am AI Engineer at Indiana University, Indianapolis who recently graduated from Indiana University, Indianapolis with a Master's in Applied Data Science. My research interests lie at the intersection of human-robot interaction, machine learning, and computer vision.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
-
-A data-driven personal website
+Education
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+- M.S. in Applied Data Science, Indiana University Indianapolis, 2025
+- B.Sc. in Information Technology, Univesity of Mumbai, 2023
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
+Work Experience
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+#### AI Engineer - Indiana University Indianapolis
+> Aug 2025 - Present
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+- Developed and containerized a [full stack knowledge graph app](https://github.com/CEnTRInnovations/CentrMap_v1) with 36 endpoint API (FastAPI), interactive graph visualizations (Cytoscape.js), and a responsive UI (React, TypeScript) to help the organization visualize complex community relationships.
+- Designed a Neo4j graph database schema (10 node/11 relationship types) based on an Ecological Systems Model, writing advanced Cypher queries for managing complex linking between people, programs, and assets and orphan detection for data integrity.
+- Engineered a weak supervision pipeline and fine-tuned a [BERT model](https://github.com/anchauha/asset-deficit-miner/blob/main/bert_finetuning/models/bert-v1/best_model/experiment_results.json) to classify asset-deficit language, expanding a 270 example seed set [IU Press Release](https://github.com/anchauha/asset-deficit-miner/blob/main/process_with_llm/data/output/results_gemini-2.5-Instruct_semantic_extraction_prompt3_d689d527.json) by 5x into a 1,350-example corpus.
+- Deployed the fine-tuned BERT classifier (0.68 F1 score) as a containerized Flask app, optimizing the inference endpoint to a p95 latency of 3.4s under load.
 
-**Markdown generator**
+#### Research Assistant (AI) - Indiana University Indianapolis
+> Aug 2023 - May 2025
+- Led research and development of [CATpc: Critical Activity Teacher Planning Companion (First Prototype)](https://github.com/anchauha/CATpc) for an [NSF funded research grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2334631) under the esteemed guidance of [Prof. Sunandan Chakraborty](https://luddy.indianapolis.iu.edu/contact/directory/sunandan-chakraborty.html) & [Dr. Jeremy Price](https://education.indianapolis.iu.edu/faculty-research/faculty-directory/price-jeremy.html). The final system demonstrated 14% higher pedagogical alignment scores, 8% reduced hallucinations, and 27% increased teacher satisfaction compared to GPT-3.5 baseline.
+- Built CoDe-KG, a knowledge graph extraction pipeline, by producing a sentence complexity dataset from 7,500 PubMed lung cancer abstracts, fine-tuning BERT variants on the dataset. Generated a labeled corpus by classifying on coreference resolved abstracts. Processed corpus with various prompting strategies (GIP, CoT, FICL, Hybrid) to perform sentence simplification and extract relationships (knowledge triples).
+- Benchmarked the triple extraction pipeline on standard relation extraction tasks, achieving 92.4% F1 on 398 gold standard triples. Outperformed prior methods with an +8% macro-F1 improvement on the ReBEL benchmark (65.78% vs previous ~57%).
+- Supported over 30 students as a TA  in the Fall 2024 H518 Deep Learning course through tutorials, labs, office hours, and lesson planning on topics like AlexNet, LSTM, Transformers, word2vec, BERT, GAN, and Reinforcement Learning.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+#### Cloud Consultant (Data & Machine Learning Platforms) - Capgemini
+> Apr 2020 - Sep 2022
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- Engineered a data ingestion pipeline using PySpark to load data into 100+ Hive tables, reducing data processing time by 40%.
+- Built an XGBoost based predictive forecasting model that optimizes SKU selection for enterprise licensing needs. This benefited in 18% annual cost savings on underutilized license spend for 43,000+ users.
+- Developed Cloud Functions to process and load over 10 GB of daily raw JSON data from GCS bucket into BigQuery and Cloud SQL.
+- Led migration for legacy applications to Azure cloud environment during an enterprise split ensuring service continuity for over 23,000 users.
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+#### Cloud Consultant (Cloud Infrastructure & DevOps) - Wipro
+> Jul 2018 - Mar 2020
+- Developed federated workflows for Azure infrastructure provisioning, managing 250+ virtual machines with 99.9% uptime.
+- Designed and maintained Azure DevOps pipelines for deployments to Azure App Services for 20+ business and operations applications, cutting deployment time by ~30%.
+- Authored 20 knowledge base documents on routine administration tasks and contributed to regular knowledge sharing sessions on topics such as storage lifecycle, retention, and Azure CLI across EMEA, APAC, and NA teams.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Other Works
+======
+
+#### Benchmarking LLMs for Pairwise Causal Discovery in Biomedical and Multi-Domain Contexts
+> 2025
+- Managed the experimental code for evaluation for pairwise causal discovery (PCD), benchmarking 13 open-source LLMs on 12 diverse datasets using various prompting styles (few-shot, COT, FICL, ReAct, etc) and advanced span-scoring (Hungarian matching, SentenceLM similarity).
+- Benchmarked detection and extraction capabilities of LLMs with DeepSeek-R1-Distill-Llama-70B attaining top causal detection accuracy (49.57%) and Qwen2.5-Coder-32B-Instruct led causal-pair extraction (47.12%).
+- Ensured robust evaluation (8 expert annotators, inter annotator k = 0.758) and released a reproducible benchmark contributing to a publication on LLM's causal reasoning capabilities.
+
+#### Cultural Eval: Quantifying Cultural Bias in LLMs - Independent Study
+> 2024
+- Developed a quantitative framework to benchmark cultural bias in LLMs by applying PCA to extract 5 latent cultural dimensions from 97,000 records across 96 variables of [WVS Dataset](https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp)
+- Compared responses from Llama-2 13B, Gemma 3 12B, and Phi 4 across 5 extracted latent cultural dimensions using Tucker's Congruence Coefficient and Cohen's d, revealing consistent underestimation of Religious-Traditional values for non-Western demographic profiles (Cohen's d: -0.89 to -1.17) [Visualization](https://github.com/anchauha/CultureEval/blob/main/output/efa_comparison_all_models/visualizations/regional_bias_heatmap_all_models.png)
+- Created Western Bias Index and Overall Cultural Bias Index metrics, finding Llama-2 demonstrated the strongest [Western bias (WBI = 1.34)](https://github.com/anchauha/CultureEval/blob/main/output/efa_comparison_all_models/visualizations/western_bias_index.png) and Phi 4 the highest overall [cultural bias (OCBI = 0.78)](https://github.com/anchauha/CultureEval/blob/main/output/efa_comparison_all_models/visualizations/overall_cultural_bias_index.png).
+
+#### Mod-Guide: An LLM-based Content Moderation Feedback System
+> 2024
+- Prototyped a multimodal NLP workflow processing 200 community collected text, image and audio documents of hate speech against minority voices in Bangladesh. Augmented the data with custom chain-of-thought reasoning, grounded in external knowledge sources, to generate [contextual metadata](https://github.com/anchauha/BanglaRAG/blob/main/data/Structured_RAG.pdf)
+- The final model's performance was evaluated on a 50 example held out set where our GPT-4 + RAG system achieved an F1 score of 87% at detecting culturally nuanced hate speech compared to an F1 score of 64% from the zero-shot GPT-4 baseline.
+
+Profile
+=====
+* [LinkedIn](https://www.linkedin.com/in/chauhan-aankit/)
+
+Contact
+=====
+* [Gmail](mailto:ankichau.1718@gmail.com)
