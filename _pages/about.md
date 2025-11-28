@@ -7,42 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-I am an AI Engineer who recently graduated from Indiana University Indianapolis with a Master's in Data Science. My research interests lie at the intersection of human-robot interaction, machine learning, and computer vision.
+Hi there! I am currently an AI Researcher in [School of Education](https://education.indianapolis.iu.edu/index.html) department of [Indiana University Indianapolis](https://indianapolis.iu.edu) where I am working under [Dr. Jeremy Price](https://education.indianapolis.iu.edu/faculty-research/faculty-directory/price-jeremy.html) on LLM based methods that turn community generated data into structured knowledge graphs for analysis and retrieval.
+
+I received my Master's in Applied Data Science from [Indiana University Indianapolis](https://indianapolis.iu.edu), where I was advised by [Dr. Sunandan Chakraborty](https://luddy.indianapolis.iu.edu/contact/directory/sunandan-chakraborty.html). My research specifically focused on cultural alignment in large language models, drawing on NLP and human-centered AI in education. The research was funded by [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2334631)
+
+My near term research interests focus on visual perception for decision making and planning in embodied AI agents, with an emphasis on socially aware Human Robot Interaction (HRI).
 
 Education
 ======
 - M.S. in Applied Data Science, Indiana University Indianapolis, 2025
 - B.Sc. in Information Technology, Univesity of Mumbai, 2023
-
-Work Experience
-======
-
-### AI Engineer - Indiana University Indianapolis
-> Aug 2025 - Present  
-- Developed and containerized a [full stack knowledge graph app](https://github.com/CEnTRInnovations/CentrMap_v1) with 36 endpoint API (FastAPI), interactive graph visualizations (Cytoscape.js), and a responsive UI (React, TypeScript) to help the organization visualize complex community relationships.
-- Designed a Neo4j graph database schema (10 node/11 relationship types) based on an Ecological Systems Model, writing advanced Cypher queries for managing complex linking between people, programs, and assets and orphan detection for data integrity.
-- Engineered a weak supervision pipeline and fine-tuned a [BERT model](https://github.com/anchauha/asset-deficit-miner/blob/main/bert_finetuning/models/bert-v1/best_model/experiment_results.json) to classify asset-deficit language, expanding a 270 example seed set [IU Press Release](https://github.com/anchauha/asset-deficit-miner/blob/main/process_with_llm/data/output/results_gemini-2.5-Instruct_semantic_extraction_prompt3_d689d527.json) by 5x into a 1,350-example corpus.
-- Deployed the fine-tuned BERT classifier (0.68 F1 score) as a containerized Flask app, optimizing the inference endpoint to a p95 latency of 3.4s under load.
-
-### Research Assistant (AI) - Indiana University Indianapolis
-> Aug 2023 - May 2025  
-- Led research and development of [CATpc: Critical Activity Teacher Planning Companion (First Prototype)](https://github.com/anchauha/CATpc) for an [NSF funded research grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2334631) under the esteemed guidance of [Prof. Sunandan Chakraborty](https://luddy.indianapolis.iu.edu/contact/directory/sunandan-chakraborty.html) & [Dr. Jeremy Price](https://education.indianapolis.iu.edu/faculty-research/faculty-directory/price-jeremy.html). The final system demonstrated 14% higher pedagogical alignment scores, 8% reduced hallucinations, and 27% increased teacher satisfaction compared to GPT-3.5 baseline.
-- Built CoDe-KG, a knowledge graph extraction pipeline, by producing a sentence complexity dataset from 7,500 PubMed lung cancer abstracts, fine-tuning BERT variants on the dataset. Generated a labeled corpus by classifying on coreference resolved abstracts. Processed corpus with various prompting strategies (GIP, CoT, FICL, Hybrid) to perform sentence simplification and extract relationships (knowledge triples).
-- Benchmarked the triple extraction pipeline on standard relation extraction tasks, achieving 92.4% F1 on 398 gold standard triples. Outperformed prior methods with an +8% macro-F1 improvement on the ReBEL benchmark (65.78% vs previous ~57%).
-- Supported over 30 students as a TA  in the Fall 2024 H518 Deep Learning course through tutorials, labs, office hours, and lesson planning on topics like AlexNet, LSTM, Transformers, word2vec, BERT, GAN, and Reinforcement Learning.
-
-### Cloud Consultant (Data & Machine Learning Platforms) - Capgemini
-> Apr 2020 - Sep 2022  
-- Engineered a data ingestion pipeline using PySpark to load data into 100+ Hive tables, reducing data processing time by 40%.
-- Built an XGBoost based predictive forecasting model that optimizes SKU selection for enterprise licensing needs. This benefited in 18% annual cost savings on underutilized license spend for 43,000+ users.
-- Developed Cloud Functions to process and load over 10 GB of daily raw JSON data from GCS bucket into BigQuery and Cloud SQL.
-- Led migration for legacy applications to Azure cloud environment during an enterprise split ensuring service continuity for over 23,000 users.
-
-### Cloud Consultant (Cloud Infrastructure & DevOps) - Wipro
-> Jul 2018 - Mar 2020  
-- Developed federated workflows for Azure infrastructure provisioning, managing 250+ virtual machines with 99.9% uptime.
-- Designed and maintained Azure DevOps pipelines for deployments to Azure App Services for 20+ business and operations applications, cutting deployment time by ~30%.
-- Authored 20 knowledge base documents on routine administration tasks and contributed to regular knowledge sharing sessions on topics such as storage lifecycle, retention, and Azure CLI across EMEA, APAC, and NA teams.
 
 Other Works
 ======
