@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2025-01-01-benchmarking-llms-pcd
 excerpt: 'We benchmark 13 open-source LLMs on pairwise causal discovery (PCD) across 12 datasets, evaluating both detection and span-level extraction with various prompting strategies.'
 date: 2025-01-01
-venue: '2025 IEEE International Conference on Big Data'
+venue: '2025 IEEE International Conference on Big Data (To appear)'
 # paperurl: 'http://example.com/paper.pdf'  # Uncomment and update when available
 # slidesurl: 'http://example.com/slides.pdf'  # Uncomment when available
 citation: 'Sydney Anuyah, Sneha Shajee Mohan, Bofu Dong, <b>Ankit Singh Chauhan</b>, Sunandan Chakraborty. (2025). &quot;Benchmarking LLMs for Pairwise Causal Discovery (PCD) in Biomedical and Multi-Domain Contexts. &quot; <i>2025 IEEE International Conference on Big Data</i>.  (To appear)'
