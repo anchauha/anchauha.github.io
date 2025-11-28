@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! I am currently an AI Researcher at [School of Education](https://education.indianapolis.iu.edu/index.html) department of [Indiana University Indianapolis](https://indianapolis.iu.edu). I work with [Dr. Jeremy Price](https://education.indianapolis.iu.edu/faculty-research/faculty-directory/price-jeremy.html) on LLM based methods that turn community generated data into structured knowledge graphs for analysis and retrieval.
+Hi there! I am an AI Researcher at [School of Education](https://education.indianapolis.iu.edu/index.html) department of [Indiana University Indianapolis](https://indianapolis.iu.edu). I work with [Dr. Jeremy Price](https://education.indianapolis.iu.edu/faculty-research/faculty-directory/price-jeremy.html) on LLM based methods that turn community generated data into structured knowledge graphs for analysis and retrieval.
 
 I received my Master's in Applied Data Science from [Indiana University Indianapolis](https://indianapolis.iu.edu), where I was advised by [Dr. Sunandan Chakraborty](https://luddy.indianapolis.iu.edu/contact/directory/sunandan-chakraborty.html). My research specifically focused on cultural alignment in large language models, drawing on NLP and human-centered AI in education. The research was funded by [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2334631)
 
