@@ -2,6 +2,8 @@
 title: "Benchmarking LLMs for Pairwise Causal Discovery (PCD) in Biomedical and Multi-Domain Contexts"
 collection: publications
 permalink: /publication/2025-01-01-benchmarking-llms-pcd
+header:
+  teaser: "PCD_pipe.png"
 # excerpt: 'We benchmark 13 open-source LLMs on pairwise causal discovery (PCD) across 12 datasets, evaluating both detection and span-level extraction with various prompting strategies.'
 date: 2025-01-01
 # venue: 'IEEE International Conference on Big Data (To appear)'
