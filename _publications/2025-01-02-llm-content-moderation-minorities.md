@@ -5,7 +5,7 @@ permalink: /publication/2025-01-02-llm-content-moderation-minorities
 excerpt: 'This paper investigates the epistemic limits of LLM-based moderation systems and explores methods for incorporating minority perspectives using RAG-enhanced moderation.'
 date: 2025-01-02
 venue: 'ACM Journal on Computing and Sustainable Societies (Under review)'
-link: 'https://www.diptodas.net/files/papers/Mod_Guide.pdf'
+paperurl: 'https://www.diptodas.net/files/papers/Mod_Guide.pdf'
 citation: 'Dipto Das, Achhiya Sultana, <b>Ankit Singh Chauhan</b>, Saadia Binte Alam, Mohammad Shidujaman, Sunandan Chakraborty, and Syed Ishtiaque Ahmed.  (2025). &quot;Can LLM-based Content Moderation Identify Insensitive Speech toward Indigenous Ethnic and Religious Minorities?&quot; <i>ACM Journal on Computing and Sustainable Societies</i>.  (Under review)'
 ---
 
