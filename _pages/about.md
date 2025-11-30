@@ -13,7 +13,7 @@ I received my Master's in Applied Data Science from [Indiana University Indianap
 
 <p align="center">
   <a href="https://github.com/anchauha">GitHub</a> &nbsp;/&nbsp;
-  <a href="https://www.linkedin.com/in/chauhan-aankit/">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/chauhan-aankit/">LinkedIn</a>  
   <a>ankichau[at]iu[dot]edu</a>;
 </p>
 
