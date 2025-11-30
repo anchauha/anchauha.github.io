@@ -11,10 +11,6 @@ Hi there! I am an AI Researcher at [School of Education](https://education.india
 
 I received my Master's in Applied Data Science from [Indiana University Indianapolis](https://indianapolis.iu.edu), where I was advised by [Dr. Sunandan Chakraborty](https://luddy.indianapolis.iu.edu/contact/directory/sunandan-chakraborty.html). My research specifically focused on cultural alignment in large language models, drawing on NLP and human-centered AI in education. The research was funded by [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2334631)
 
-Research
-======
-My near term research interests focus on visual perception for decision making and planning in embodied AI agents, with an emphasis on socially aware Human Robot Interaction (HRI). 
-
 <p align="center">
   <a href="https://github.com/anchauha">GitHub</a> &nbsp;/&nbsp;
   <a href="https://www.linkedin.com/in/chauhan-aankit/">LinkedIn</a>
@@ -22,3 +18,7 @@ My near term research interests focus on visual perception for decision making a
 <p align="center">
   <a>ankichau[at]iu[dot]edu</a>;
 </p>
+
+Research
+======
+My near term research interests focus on visual perception for decision making and planning in embodied AI agents, with an emphasis on socially aware Human Robot Interaction (HRI).
